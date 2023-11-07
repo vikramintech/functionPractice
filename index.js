@@ -1,6 +1,7 @@
 console.clear();
 
 // car object
+
 const cars ={
     name: "Swift",
     color: 4,
@@ -11,7 +12,8 @@ function getName(object){
     return object.name;
 }
 // invoking getName function
-console.log(getName(cars));
+
+console.log(`The value of name property of an object is${getName(cars)}`);
 
 
 // function take 3 numbers and give their product
@@ -22,7 +24,7 @@ function getProduct(num1,num2,num3){
 
 // invoking getProduct function
 
-console.log(getProduct(2,4,7));
+console.log(`Product of three numbers is${getProduct(2,4,7)}`);
 
 // cars array
 const carBrands = ["audi","bmw","VW","skoda","bentely"]
@@ -34,4 +36,4 @@ function getFifthElement(array){
 }
 // invoking getfifthElement function
 
-console.log(getFifthElement(carBrands));
+console.log(`Fifth element of an array is${getFifthElement(carBrands)}`);
