@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+h1{
+    margin-top:27px;
+}
+.syntax{
+    margin: 0 auto;
+    margin-top:45px;
+    border: 0px solid orangered;
+    width:451px;
+    background-color:rgba(250, 235, 215, 0.438);
+    border-radius:9px;
+    padding:19px;
+    box-shadow: 3px 3px 5px 5px tan;
+    color: rgba(0, 0, 0, 0.788);
+}
+.syntax > P{
+    font-family:monospace;
+    margin-top:11px;
+    font-size: 15px;
+}
+
+.invoke{
+    
+}
